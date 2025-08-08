@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
     /*
     const emailService = new EmailService(process.env.EMAIL_API_KEY);
     await emailService.send({
-      to: 'joyli.rumao1425@gmail.com',
+      to: 
       from: from_email,
       subject: `Portfolio Contact: ${subject}`,
       html: `
@@ -45,7 +45,7 @@ export async function POST(request: NextRequest) {
     */
 
     // For now, we'll log the email data (in production, replace with actual email sending)
-    console.log('Email would be sent to joyli.rumao1425@gmail.com with data:', {
+    console.log('Email would be sent to  with data:', {
       from_name,
       from_email,
       subject,
@@ -57,7 +57,7 @@ export async function POST(request: NextRequest) {
     return NextResponse.json(
       { 
         success: true, 
-        message: 'Email sent successfully to joyli.rumao1425@gmail.com' 
+        message: 'Email sent successfully to ' 
       },
       { status: 200 }
     );
